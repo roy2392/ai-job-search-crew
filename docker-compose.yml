@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    environment:
+      - AIRTABLE_API_KEY=your_airtable_api_key
+      - AIRTABLE_BASE_ID=your_airtable_base_id
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./frontend

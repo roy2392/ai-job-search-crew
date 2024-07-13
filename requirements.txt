@@ -1,0 +1,7 @@
+langchain
+openai
+pandas
+flask
+flask-cors
+requests
+pyairtable
